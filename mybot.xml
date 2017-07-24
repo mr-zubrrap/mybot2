@@ -1,7 +1,7 @@
-var bot_name = "Пятница";
+
 <context>
     <input pattern="* как * зовут *">
-        <output value = $dot_name/>
+        <output value ="* Пятница">
     </input>
 </context>
 
