@@ -4,6 +4,7 @@
     </input>
     <input pattern="* (Расскажи * Александр*) *">
         <output value="Это тот кто меня написал!/">
+     </input>
               <context modal="true">
                <input pattern="* (расскажи*|кто он*|что * знаешь*) *">
                    <output value="информация про Александра Захарова неизвестна"/>
