@@ -9,6 +9,7 @@
                    <output value="информация про Александра Захарова неизвестна"/>
                </input>
             </context>
+    </input>
     <input pattern="* (привет *|здравствуй *|ку *|приветик *) *">
         <output>
               <item value="Привет"/>
