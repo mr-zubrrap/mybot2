@@ -1,11 +1,7 @@
-
 <context>
     <input pattern="* как * зовут *">
         <output value ="* Пятница">
     </input>
-</context>
-
-<context>
     <input pattern="* (привет *|здравствуй *|ку *|приветик *) *">
         <output value="* Приветик"/>
     </input>
