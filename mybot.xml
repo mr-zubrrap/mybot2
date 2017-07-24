@@ -31,4 +31,7 @@
             </input>
         </context>
     </input>
+        <input pattern="* (молод*|умница*) *">
+            <output value="стараюсь"/>
+        </input>
 </context>
