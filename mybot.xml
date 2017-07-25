@@ -11,7 +11,19 @@
             </context>
     </input>
     <input pattern="* (привет *|здравствуй *|ку *|приветик *) *">
+        <var name="hello">
+            <script>
+               <![CDATA[
+                  var otv = '';
+                  if ($hello > 1) {
+                  otv="вы это уже говорили";
+                  }
+                  otv;
+               ]]>
+            </script>
+        </var>
         <output>
+              <item value="$otv"/>
               <item value="Привет"/>
               <item value="Здравствуй"/>
               <item value="Здравствуйте"/>
@@ -32,9 +44,6 @@
         </context>
     </input>
         <input pattern="* (молод*|умница*|спасибо*) *">
-            <get url="https://ru.telegram-store.com/wp-content/uploads/2016/12/image_4951.png" var="Weather">
-              <param name="png" value="$images"/>
-            </get>
-            <output value='get($Weather)'/>
+            <output value="Стараюсь"/>
         </input>
 </context>
