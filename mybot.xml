@@ -15,7 +15,7 @@
             <script>
                <![CDATA[
                   var otv = '';
-                  if ($hello > ($hello + $hello)) {
+                  for ($hello > ($hello + $hello)) {
                   otv="вы это уже говорили";
                   }
                   otv;
